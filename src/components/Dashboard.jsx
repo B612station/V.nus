@@ -48,7 +48,7 @@ export default function Dashboard({ couple, onNavigate }) {
           border: '0.5px solid rgba(255,255,255,0.05)',
         }} />
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 320px', gap: '48px', position: 'relative', alignItems: 'start' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 380px', gap: '32px', position: 'relative', alignItems: 'start' }}>
 
           {/* Colonne gauche : texte */}
           <div>
@@ -121,7 +121,7 @@ export default function Dashboard({ couple, onNavigate }) {
           </div>
 
           {/* Colonne droite : État du lien + Ce que Vnus a remarqué */}
-          <div className="fade-up delay-3" style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+          <div className="fade-up delay-3" style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
 
             {/* État du lien */}
             <div style={{
